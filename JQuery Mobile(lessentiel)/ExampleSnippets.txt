@@ -1,6 +1,5 @@
-﻿// Example Snippets File for jQuery Mobile Essential Training course
 
-Chapter 1:
+
 
 First Page:
 
@@ -36,7 +35,6 @@ First Page:
 
 ----------------------------------------------------------
 
-Chapter 2:
 
 External Page Navigation:
 
@@ -70,7 +68,6 @@ Dialogs:
 
 ----------------------------------------------------------
 
-Chapter 3:
 
 Headers and Footers:
 
@@ -166,7 +163,6 @@ Buttons:
 
 ----------------------------------------------------------
 
-Chapter 4:
 
 Form Basics:
 
@@ -366,7 +362,6 @@ Select Lists and Sliders:
 ----------------------------------------------------------
 
 
-Chapter 5:
 
 Basic:
             <ol data-role="listview">
@@ -514,7 +509,7 @@ Rich Content Formatting:
 ----------------------------------------------------------
 
 
-Chapter 6:
+
 
 Grids:
             <p>Two-column layout:</p>
@@ -619,7 +614,6 @@ Collapsible Sets:
 
 ----------------------------------------------------------
 
-Chapter 7:
 
 Touch:
     <script>
@@ -708,7 +702,6 @@ Page Change and Transition:
 
 ----------------------------------------------------------
 
-Chapter 8:
 
 Config:
     <!-- include this here to make sure that we catch the mobileinit event -->
