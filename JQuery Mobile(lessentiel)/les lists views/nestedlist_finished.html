@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested List Views</title>
+    <!-- the three things that jQuery Mobile needs to work -->
+    <link rel="stylesheet" href="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.css" />
+    <script src="../jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- This is the first page -->
+    <section id="firstpage" data-role="page">
+        <header data-role="header">
+        <h1>Using Lists</h1>
+        </header>
+        <div data-role="content">
+        <h2>Ordered List Example</h2>
+        <ol data-role="listview">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>More Items
+            <ol data-role="listview">
+                <li>List Item 4</li>
+                <li>List Item 5</li>
+                <li>List Item 6</li>
+            </ol>
+            </li>
+        </ol>
+        <h2>Unordered List Example</h2>
+        <ul data-role="listview">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>More Items
+            <ul data-role="listview">
+                <li>List Item 3</li>
+                <li>List Item 4</li>
+                <li>List Item 5</li>
+            </ul>
+            </li>
+            <li>List Item 6</li>
+        </ul>
+        </div>
+    </section>
+</body>
+</html>

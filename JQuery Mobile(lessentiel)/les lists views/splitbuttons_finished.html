@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List View Split Buttons</title>
+    <!-- the three things that jQuery Mobile needs to work -->
+    <link rel="stylesheet" href="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.css" />
+    <script src="../jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- This is the first page -->
+    <section id="firstpage" data-role="page">
+        <header data-role="header">
+            <h1>List View Split Buttons</h1>
+        </header>
+        <div data-role="content">
+        <h2>Wine Regions</h2>
+        <ul data-role="listview">
+            <li>
+                America
+                <ul>
+                <li>California
+                    <ul>
+                    <li>
+                        <a href="#winedetails">Wine #1</a>
+                        <a href="#winenotes">Wine Notes</a>
+                    </li>
+                    <li>
+                        <a href="#winedetails">Wine #2</a>
+                        <a href="#winenotes">Wine Notes</a>
+                    </li>
+                    <li>
+                        <a href="#winedetails">Wine #3</a>
+                        <a href="#winenotes">Wine Notes</a>
+                    </li>
+                    </ul>
+                </li>
+                <li>Washington</li>
+                <li>Oregon</li>
+                </ul>
+            </li>
+            <li>
+                France
+                <ul>
+                <li>Burgundy</li>
+                <li>Bordeaux</li>
+                <li>Cote du Rhone</li>
+                </ul>
+            </li>
+            <li>
+                Italy
+                <ul>
+                <li>Tuscan</li>
+                <li>Sicily</li>
+                <li>Alto Adige</li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="winedetails" data-role="page">
+        <header data-role="header">
+            <h1>Wine Details</h1>
+        </header>
+        <div data-role="content">
+        <p>This page contains information about the wine.</p>
+        </div>
+    </section>
+
+
+    <section id="winenotes" data-role="page">
+        <header data-role="header">
+            <h1>Wine Tasting Notes</h1>
+        </header>
+        <div data-role="content">
+        <p>This page is where you enter your own tasting notes.</p>
+        </div>
+    </section>
+</body>
+</html>

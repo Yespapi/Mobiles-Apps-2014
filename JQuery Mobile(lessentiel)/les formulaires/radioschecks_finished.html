@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Radio & Checkbox Example</title>
+    <!-- the three things that jQuery Mobile needs to work -->
+    <link rel="stylesheet" href="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.css" />
+    <script src="../jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../jquery.mobile-1.0rc2/jquery.mobile-1.0rc2.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- This is the first page -->
+    <section id="firstpage" data-role="page">
+        <header data-role="header">
+        <h1>Radiobuttons &amp; Checkboxes</h1>
+        </header>
+        <div data-role="content">
+        <form method="get" action="">
+            <fieldset data-role="controlgroup">
+            	<legend>Select an option:</legend>
+    		    <label for="rb1">Radio Button 1</label>
+			    <input type="radio" name="rb" id="rb1" value="rb1"/>
+    		    <label for="rb2">Radio Button 2</label>
+			    <input type="radio" name="rb" id="rb2" value="rb2" checked="checked"/>
+    		    <label for="rb3">Radio Button 3</label>
+			    <input type="radio" name="rb" id="rb3" value="rb3"/>
+    		    <label for="rb4">Radio Button 4</label>
+			    <input type="radio" name="rb" id="rb4" value="rb4"/>
+            </fieldset>
+            <fieldset data-role="controlgroup" data-type="horizontal">
+            	<legend>Select an option:</legend>
+    		    <label for="rb5">Option 1</label>
+			    <input type="radio" name="rbtn" id="rb5" value="rb5" checked="checked"/>
+    		    <label for="rb6">Option 2</label>
+			    <input type="radio" name="rbtn" id="rb6" value="rb6"/>
+    		    <label for="rb7">Option 3</label>
+			    <input type="radio" name="rbtn" id="rb7" value="rb7"/>
+            </fieldset>
+            <fieldset data-role="controlgroup">
+            	<legend>Agree to the terms:</legend>
+    		    <label for="cb1">I agree</label>
+            	<input type="checkbox" name="cb1" id="cb1" />
+            </fieldset>
+            <fieldset data-role="controlgroup">
+            	<legend>Choose Programming Fuel:</legend>
+    		    <label for="pf1">Red Bull</label>
+            	<input type="checkbox" name="pf1" id="pf1" />
+    		    <label for="pf2">Mountain Dew</label>
+            	<input type="checkbox" name="pf2" id="pf2" />
+    		    <label for="pf3">Dr. Pepper</label>
+            	<input type="checkbox" name="pf3" id="pf3" />
+            </fieldset>
+        </form>
+        </div>
+    </section>
+</body>
+</html>
